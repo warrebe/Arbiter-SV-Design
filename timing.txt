@@ -1,0 +1,39 @@
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : arbiter
+Version: L-2016.03-SP2
+Date   : Fri Apr 28 15:23:42 2023
+****************************************
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+  Startpoint: arbiter_ps_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: gnt (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  arbiter_ps_reg[1]/clocked_on (**SEQGEN**)               0.00       0.00 r
+  arbiter_ps_reg[1]/Q (**SEQGEN**)                        0.00       0.00 r
+  C166/Z (GTECH_AND2)                                     0.00       0.00 r
+  C142/Z_0 (*SELECT_OP_5.1_5.1_1)                         0.00       0.00 r
+  gnt (out)                                               0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

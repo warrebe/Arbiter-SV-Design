@@ -1,0 +1,8 @@
+analyze -format sverilog  -lib WORK arbiter.sv
+elaborate arbiter -lib WORK
+compile
+report_timing > timing.txt
+report_area > area.txt
+report_hierarchy > hierarchy.txt
+write -hierarchy -format verilog -output arbiter.gate.v
+quit

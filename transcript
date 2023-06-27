@@ -1,0 +1,45 @@
+# vsim arbiter -do "arbiter.do" -quiet -c -t 1ps 
+# Start time: 15:23:37 on Apr 28,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  ModelSim SE-64 2021.2 Apr 14 2021 Linux 3.10.0-1160.83.1.el7.x86_64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do arbiter.do
+# End time: 15:23:37 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim arbiter -voptargs="+acc=npr" -t ns 
+# Start time: 15:23:37 on Apr 28,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.arbiter(fast)
+#                   20 : [arbiter_ps] becomes: 1
+#                   30 : [arbiter_ps] becomes: 2
+#                   40 : [arbiter_ps] becomes: 3
+#                   50 : [arbiter_ps] becomes: 0
+#                   70 : [arbiter_ps] becomes: 1
+#                   80 : [arbiter_ps] becomes: 1
+#                   90 : [arbiter_ps] becomes: 1
+#                  100 : [arbiter_ps] becomes: 4
+#                  110 : [arbiter_ps] becomes: 2
+#                  120 : [arbiter_ps] becomes: 3
+#                  130 : [arbiter_ps] becomes: 0
+#                  150 : [arbiter_ps] becomes: 1
+#                  160 : [arbiter_ps] becomes: 1
+#                  170 : [arbiter_ps] becomes: 1
+#                  180 : [arbiter_ps] becomes: 4
+#                  190 : [arbiter_ps] becomes: 3
+#                  210 : [arbiter_ps] becomes: 1
+#                  220 : [arbiter_ps] becomes: 3
+#                  230 : [arbiter_ps] becomes: 0
+# End time: 15:23:38 on Apr 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

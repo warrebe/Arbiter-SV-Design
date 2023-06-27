@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : arbiter
+Version: L-2016.03-SP2
+Date   : Fri Apr 28 15:23:42 2023
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /usr/local/apps/synopsys/current_synthesis/libraries/syn/gtech.db)
+
+Number of ports:                           17
+Number of nets:                            89
+Number of cells:                           72
+Number of combinational cells:             55
+Number of sequential cells:                15
+Number of macros/black boxes:               0
+Number of buf/inv:                         28
+Number of references:                      12
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1

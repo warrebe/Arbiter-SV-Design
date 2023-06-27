@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : hierarchy
+Design : arbiter
+Version: L-2016.03-SP2
+Date   : Fri Apr 28 15:23:42 2023
+****************************************
+
+Information: This design contains unmapped logic. (RPT-7)
+
+arbiter
+    *ADD_UNS_OP_2_1_2
+        DW01_inc_width2
+            GTECH_NOT            gtech
+            GTECH_XOR2           gtech
+    GTECH_AND2                   gtech
+    GTECH_BUF                    gtech
+    GTECH_NOT                    gtech
+    GTECH_OR2                    gtech
+1
